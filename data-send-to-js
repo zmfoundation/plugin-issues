@@ -1,0 +1,24 @@
+/*
+* This is the procedure of sending data from PHP file to JS file
+*/
+
+
+$data = array(
+  'name' => 'WPQuerist',
+  'url' => 'https://www.wpquerist.com'
+);
+
+wp_localize_script('$handler_where_data_will_be_sent','$handler_by_which_data_will_be_picked',$data);
+
+
+
+
+
+
+
+
+
+
+
+
+
